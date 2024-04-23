@@ -15,7 +15,7 @@ int main()
         {"автобус","Там много бабушек днём."},
         {"мясорубка","Что-то делает с мясом."},
         {"игра","Это что?"} };
-    int words_number = 4;
+    int words_number = rand()%5;
     string theword = words_base[words_number][0];
     for (int i = 0;i < theword.size();++i) {
         int t = rand() % theword.size();
